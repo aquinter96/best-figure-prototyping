@@ -7,7 +7,7 @@ FakeDataForPredictorSummary <- function(treatments = c("ESC", "EBEM", "ACT", "Du
         # Create a data frame
         test_data <- expand.grid(
                 Predictor = c(
-                        "Age", "Gender", "BMI", "Duration of Pain", "Pain Severity",
+                        "AGE", "Gender", "BMI", "Duration of Pain", "Pain Severity",
                         "Self-efficacy", "Baseline PEG",
                         "Functional Status", "Employment Status", "Opioid Use",
                         "Previous Surgery", "Smoking Status", "Alcohol Use",
